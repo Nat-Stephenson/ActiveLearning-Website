@@ -3,12 +3,14 @@ project:
   output-dir: docs
   
 website:
-  title: "Learning with Quarto"
   navbar:
+    background: primary
+    search: true
     left:
-      - href: index.qmd
-        text: Home
-      - projects.qmd
+      - text: "Home"
+        href: index.qmd
+      - talks.qmd
+      - about.qmd 
     tools:
       - icon: twitter
         href: https://twitter.com/
